@@ -22,14 +22,14 @@
 	padding: 0;
 	position: static;
 	text-align: left;
-	font-family:sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 #djDebugToolbar {
 	background: #111;
 	width: 200px;
 	z-index: 100000000;
-	position:absolute;
+	position:fixed;
 	top:0;
 	bottom:0;
 	right:0;
@@ -93,7 +93,6 @@
 #djDebugToolbar li>div.contentless  {
 	font-weight: normal;
 	font-style: normal;
-	font-variant: small-caps;
 	text-decoration: none;
 	display: block;
 	font-size: 16px;
@@ -104,7 +103,6 @@
 #djDebugToolbar li a:hover {
 	color: #111;
 	background-color: #c6d6da;
-	border-right: 10px solid #fff;
 }
 
 #djDebugToolbar li.active {
@@ -125,9 +123,8 @@
 #djDebugToolbar li small {
 	font-size: 12px;
 	color: #999;
-	font-style: italic;
 	text-decoration: none;
-	font-variant: normal;
+	font-variant: small-caps;
 }
 
 #djDebugToolbar #djDebugButton {
@@ -145,13 +142,13 @@
 #djDebug .panelContent {
 	
 	display: none;
-	position: absolute;
+	position: fixed;
 	margin: 0;
 	padding: 10px 20px;
-	top: 2px;
+	top: 15px;
 	right: 200px;
-	bottom: 2px;
-	left: 2px;
+	bottom: 5px;
+	left: 5px;
 	color: #111;
 	z-index: 1000000;
 	/*overflow: auto;*/
@@ -265,8 +262,8 @@
 	text-indent: -9999999px;
 	display: block;
 	position: absolute;
-	top: 0;
-	right: 10px;
+	top: -25px;
+	right: 5px;
 	height: 40px;
 	width: 40px;
 	background: url(close.png) no-repeat center center;
