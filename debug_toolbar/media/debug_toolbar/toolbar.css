@@ -41,7 +41,7 @@
 }
 
 #djDebugToolbarHandle {
-	position:absolute;
+	position:fixed;
 	background: #111;
 	top:0;
 	right:0;
@@ -140,15 +140,14 @@
 }
 
 #djDebug .panelContent {
-	
 	display: none;
 	position: fixed;
 	margin: 0;
-	padding: 10px 20px;
+	padding: 20px;
 	top: 15px;
-	right: 200px;
+	right: 50px;
 	bottom: 5px;
-	left: 5px;
+	left: 155px;
 	color: #111;
 	z-index: 1000000;
 	/*overflow: auto;*/
@@ -196,7 +195,8 @@
 
 #djDebug .panelContent h3 {
 	font-size: 24px;
-	font-variant: small-caps;
+	font-weight: bold;
+	margin-bottom: 0.5em;
 }
 
 #djDebug .panelContent h4 {
